@@ -9,7 +9,11 @@
   <ItemGroup>
     <Folder Include="Contracts\" />
     <Folder Include="DataRepositories\" />
-    <Folder Include="Infastructures\" />
+    <Folder Include="Infastructures\Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\B2b.Core\B2b.Core.csproj" />
   </ItemGroup>
 
 </Project>

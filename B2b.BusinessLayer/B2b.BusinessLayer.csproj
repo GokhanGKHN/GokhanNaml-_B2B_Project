@@ -14,4 +14,8 @@
     <Folder Include="Contracts\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\B2b.DataAccessLayer\B2b.DataAccessLayer.csproj" />
+  </ItemGroup>
+
 </Project>

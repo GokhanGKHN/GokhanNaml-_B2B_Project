@@ -12,4 +12,8 @@
     <Folder Include="Dvos\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\B2b.Core\B2b.Core.csproj" />
+  </ItemGroup>
+
 </Project>
