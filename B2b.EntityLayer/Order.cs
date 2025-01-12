@@ -9,7 +9,10 @@ namespace B2b.EntityLayer
         [ForeignKey("CustomerId")]
 
         public Customer Customer { get; set; }
+
         public int ProductId { get; set; }
+        [ForeignKey("ProductId")]
+
         public List<Product> Products { get; set; }
     }
 }
